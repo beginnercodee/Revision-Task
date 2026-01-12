@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D74035;
+}
+
+.main-card{
+    background-color: #C5BCB9;
+    width: 60%;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #382E37;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-transform: uppercase;
+    width: 80%;
+    margin: auto;
+}
+
+.main-card h1, .main-card h2{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.main-card p{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    width: 85%;
+    margin: auto;
+}
+
+.main-card img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.cards-div img{
+    width: 200px;
+    height: 200px;
+}
+
+.cards-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .main-card{
+        width: 90%;
+    }
+
+    .nav{
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .cards-div img{
+        width: 500px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-card{
+        width: 80%;
+    }
+
+    .nav{
+        width: 90%;
+        font-size: 1.1em;
+    }
+
+    .cards-div img{
+        width: 300px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+}   
